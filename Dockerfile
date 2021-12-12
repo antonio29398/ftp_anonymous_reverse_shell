@@ -27,6 +27,6 @@ ENTRYPOINT /usr/sbin/service apache2 start; \
 echo "PER IL POTERE DI MAPOETTO!";\
 /bin/sleep 2; \
 /usr/sbin/service vsftpd start;\
-sleep 240
+sleep 3600
 
 EXPOSE 20 21 80 21000-21010
